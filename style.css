@@ -1,0 +1,76 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.header
+{
+    height: 80px;
+    width: 100%;
+    background: rgb(60,69,115);
+    background: radial-gradient(circle, rgba(60,69,115,1) 0%, rgba(88,26,39,1) 100%);
+    display: flex;
+    position: absolute;
+    border-bottom: 2px solid;
+}
+
+.logo
+{
+
+}
+
+.links
+{
+
+}
+
+.splashscreen
+{
+    background: url("https://images.unsplash.com/photo-1480506132288-68f7705954bd?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    display: flex;
+}
+
+.tidbit
+{
+    padding-top: 175px;
+    color: white;
+    width: 40%;
+    text-align: center;
+}
+
+.tidbit h1
+{
+    font-size: 35px;
+}
+
+.tidbit p
+{
+    font-size: 20px;
+    width: 40%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 30%;
+    text-align: center;
+}
+
+.tidbit a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.tidbit a:hover
+{
+    color: rgb(126, 126, 126);
+    text-decoration: none;
+}
+
+.image
+{
+    width: 60%;
+}
