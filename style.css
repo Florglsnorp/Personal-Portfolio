@@ -220,3 +220,37 @@
     font-size: 20px;
     width: 75%;
 }
+
+.contact
+{
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    background: rgb(163,47,71);
+    background: linear-gradient(90deg, rgba(163,47,71,1) 0%, rgba(105,15,54,1) 27%, rgba(62,100,130,1) 59%, rgba(48,63,138,1) 100%);
+}
+
+hr
+{
+    width: 50%;
+    border: 1px solid white;
+}
+
+.contact h1
+{
+    font-size: 40px;
+    color: white;
+    padding-top: 60px;
+}
+
+.contact h2
+{
+    font-size: 30px;
+    color: white;
+}
+
+.methods
+{
+    display: flex;
+    justify-content: center;
+}
