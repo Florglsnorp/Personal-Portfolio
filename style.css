@@ -135,6 +135,23 @@
     padding-top: 140px;
 }
 
+.works p
+{
+    color: white;
+    font-size: 20px;
+}
+
+.works a
+{
+    color: white;
+}
+
+.works a:hover
+{
+    color: rgb(126, 126, 126);
+    text-decoration: none;
+}
+
 .work
 {
     display: flex;
@@ -145,7 +162,7 @@
 .anchor
 {
     padding-top: 30px;
-    background-color: rgb(126, 126, 126);
+    background-color: rgb(158, 144, 144);
     width: 25%;
     color: white;
     border: 2px solid white;
@@ -223,7 +240,7 @@
 
 .contact
 {
-    height: 800px;
+    height: 840px;
     width: 100%;
     text-align: center;
     background: rgb(163,47,71);
@@ -283,4 +300,50 @@ hr
 {
     color: white;
     font-size: 22px;
+}
+
+.skills
+{
+    background: url("https://media.istockphoto.com/id/1387945043/photo/computer-technology-background-digital-data-flow-network-connection-structure-big-data.webp?b=1&s=170667a&w=0&k=20&c=Sd255zPE6kBUU_EE3omdvL5GNWQdfSeOBmHBdEObCJc=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 825px;
+    width: 100%;
+    text-align: center;
+}
+
+.skills h1
+{
+    font-size: 40px;
+    color: white;
+    padding-top: 90px;
+}
+
+.explanation
+{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.skill
+{
+    color: white;
+    width: 20%;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: rgb(158, 144, 144);
+}
+
+.skill h2
+{
+    padding: 15px;
+    font-size: 30px;
+}
+
+.skill p
+{
+    padding: 20px;
+    font-size: 20px;
 }
