@@ -58,7 +58,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 600px;
+    height: 825px;
     width: 100%;
     display: flex;
 }
@@ -121,7 +121,7 @@
 
 .works
 {
-    height: 500px;
+    height: 830px;
     width: 100%;
     background: rgb(48,63,138);
     background: linear-gradient(90deg, rgba(48,63,138,1) 0%, rgba(62,100,130,1) 41%, rgba(105,15,54,1) 73%, rgba(163,47,71,1) 100%);
@@ -132,7 +132,7 @@
 {
     font-size: 40px;
     color: white;
-    padding-top: 60px;
+    padding-top: 140px;
 }
 
 .work
@@ -175,12 +175,12 @@
 
 .about
 {
-    padding-top: 60px;
+    padding-top: 90px;
     background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0zNzgtMDkta255OWZoM2IuanBn.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 600px;
+    height: 800px;
     width: 100%;
     color: white;
 }
@@ -223,7 +223,7 @@
 
 .contact
 {
-    height: 500px;
+    height: 800px;
     width: 100%;
     text-align: center;
     background: rgb(163,47,71);
@@ -240,7 +240,7 @@ hr
 {
     font-size: 40px;
     color: white;
-    padding-top: 60px;
+    padding-top: 90px;
 }
 
 .contact h2
@@ -253,4 +253,34 @@ hr
 {
     display: flex;
     justify-content: center;
+    gap: 200px;
+    padding-top: 30px;
+}
+
+.email
+{
+    color: white;
+    font-size: 20px;
+}
+
+.phone
+{
+    color: white;
+    font-size: 20px;
+}
+
+.email h3
+{
+    text-decoration: underline;
+}
+
+.phone h3
+{
+    text-decoration: underline;
+}
+
+.contact p
+{
+    color: white;
+    font-size: 22px;
 }
